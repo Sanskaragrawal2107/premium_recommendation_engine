@@ -1,0 +1,22 @@
+[build]
+  base    = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from   = "/predict"
+  to     = "http://18.207.120.238:8000/predict"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/health"
+  to     = "http://18.207.120.238:8000/health"
+  status = 200
+  force  = true
+
+# SPA fallback — all routes serve index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
