@@ -22,7 +22,6 @@ env/
 
 # ── Jupyter ──
 .ipynb_checkpoints/
-*.ipynb
 
 # ── uv / pyproject lock ──
 uv.lock
