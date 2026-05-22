@@ -1,0 +1,47 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+
+# ── Model artifacts (large binary files) ──
+*.pkl
+
+# ── Data files ──
+*.csv
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb
+
+# ── uv / pyproject lock ──
+uv.lock
+
+# ── Environment / secrets ──
+.env
+.env.*
+
+# ── Node / React ──
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
